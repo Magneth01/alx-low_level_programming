@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - checking entry
  * Description : determining postive and negative numbers
@@ -21,7 +22,7 @@ printf("%d is zero\n", n);
 }
 elseif (n<0)
 {
-printf("%d is negative\n", n)
+printf("%d is negative\n", n);
 }
 return (0);
 }
