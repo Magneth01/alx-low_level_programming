@@ -14,6 +14,6 @@ if (lower != 'a' && lower != 'q')
 putchar(lower);
 }
 }
-putchar('\n);
+putchar('\n');
 return (0);
 }
