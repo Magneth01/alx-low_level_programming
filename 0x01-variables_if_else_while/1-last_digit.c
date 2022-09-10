@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
@@ -18,7 +19,7 @@ else if (n == 0)
 {
 printf("Last digit of n is %d and is 0", n);
 }
-else if ((n < 0) && (n != 0))
+else if (n < 0 && n != 0)
 {
 printf("Last digit of n is %d and is less than 6 and not 0", n);
 }
