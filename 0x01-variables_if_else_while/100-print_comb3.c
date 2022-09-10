@@ -4,31 +4,34 @@
  * *
  * * Return: 0 on success
  * */
+#include <stdio.h>
+/**
+ * * main - print numbers from 00 to 99.
+ * *
+ * * Return: 0 on success
+ * */
 int main(void)
 {
 int i = '0';
 int j = '0';
-int k = '0';
-while (i <= '7')
+while (i <= '9')
 {
-while (j <= '8')
+while (j <= '9')
 {
-while (k <= '9')
-{
-if (i < j && j < k)
+if (!(i > j || i == j))
 {
 putchar(i);
 putchar(j);
-putchar(k);
-if (!(i == '7' && j == '8' && k == '9'))
+if (i == '8' && j == '9')
+{
+putchar('\n');
+}
+else
 {
 putchar(',');
 putchar(' ');
 }
 }
-k++;
-}
-k = '0';
 j++;
 }
 j = '0';
