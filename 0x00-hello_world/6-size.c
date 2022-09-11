@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - printing
+ * main - printing sizes
  *
  * Description: using the main function
  * the program prints size of various types 
