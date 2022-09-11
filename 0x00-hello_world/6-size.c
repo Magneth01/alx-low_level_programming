@@ -3,7 +3,7 @@
  * main - printing sizes
  *
  * Description: using the main function
- * the program prints size of various types 
+ * the program prints size of various types
  * Return: 0
  */
 int main(void)
