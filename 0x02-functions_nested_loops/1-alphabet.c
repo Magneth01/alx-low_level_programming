@@ -1,9 +1,11 @@
 #include "main.h"
-/** print_alphabet - print lowercase alphabets
+/**
+ * print_alphabet - print lowercase alphabets
  *
  * Description: print alphabets from 'a' to 'z' in lowercase
  * Return: 0
  */
+
 void print_alphabet(void)
 {
 	char c;
