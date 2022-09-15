@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - prints alpabet 10times
+ * print_alphabet_x10 - prints alpabet 10times
  *
  * Description: print alphabets in lower case 10times using nested for-loop
  * Return: 0
