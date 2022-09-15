@@ -4,7 +4,7 @@
  *
  * Return: 1
  */
-void print_alphabet_x10(void)
+int _islower(int c)
 {
 	if (c >= 'a'; && c <= 'z')
 	{
