@@ -2,6 +2,7 @@
 /**
  * print_alphabet - prints alpabet 10times
  *
+ * Description: print alphabets in lower case 10times using nested for-loop
  * Return: 0
  */
 void print_alphabet_x10(void)
