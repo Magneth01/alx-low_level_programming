@@ -1,5 +1,5 @@
 #include "main.h"
-/** 
+/**
  * print_alphabet - prints alpabet 10times
  *
  * Return: 0
