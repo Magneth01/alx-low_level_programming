@@ -5,7 +5,7 @@
  *
  * Return: 1
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if (c >= 'A' && c <= 'Z')
 	{
