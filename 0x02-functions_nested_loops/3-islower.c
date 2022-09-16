@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _islower - determine the case of a letter
- * @c is the argument of the function _islower
+ * int _islower(int c) - determine the case of a letter
+ * Description: @c is the argument of the function _islower
  *
  * Return: 1
  */
