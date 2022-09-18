@@ -2,9 +2,10 @@
 #define MAIN_H
 
 /**
- * Main.h file containing prototype for all functions
- * used in Nested loop project
+ * File - main.h
  *
+ * Desc: Main.h file containing prototype for all functions
+ * used in Nested loop project
  */
 	
 int _putchar(char c);
