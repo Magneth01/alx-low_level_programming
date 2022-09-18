@@ -2,7 +2,7 @@
 
 /**
  * main - determine if letter is uppercase
- * @c is the letter 
+ * @c is the letter
  *
  * Return: 1 for uppercase, 0 otherwise
  */
