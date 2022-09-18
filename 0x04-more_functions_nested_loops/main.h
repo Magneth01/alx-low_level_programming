@@ -2,8 +2,9 @@
 #define MAIN_H
 
 /**
- * File: main.hDesc: Header file containing prototypes for all functions
- * Describtion: used in the 0x04-more_functions_nested_loops directory.
+ * File: main.h
+ * Desc: Header file containing prototypes for all functions
+ * used in the 0x04-more_functions_nested_loops directory.
  *
  * Return: 1 for digit, 0 otherwise
  */
