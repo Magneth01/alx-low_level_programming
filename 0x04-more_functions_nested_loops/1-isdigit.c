@@ -1,4 +1,4 @@
-#include main.h
+#include "main.h"
 
 /**
  * main - check it's a number within 1-9
