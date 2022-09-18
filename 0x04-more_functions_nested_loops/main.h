@@ -1,13 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/**
- * File - main.h
- *
- * Desc: Main.h file containing prototype for all functions
- * used in Nested loop project
- */
-
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
