@@ -2,7 +2,7 @@
 
 /**
  * main - determine if letter is uppercase
- * @c is the letter
+ * @c: is the letter
  *
  * Return: 1 for uppercase, 0 otherwise
  */
@@ -13,4 +13,4 @@ if (c >= 'A' && c <= 'Z')
 return (1);
 else
 return (0);
-}
+i}
