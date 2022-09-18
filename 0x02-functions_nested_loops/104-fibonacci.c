@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints the first 98 Fibonacci numbers starting 
+ * main - Prints the first 98 Fibonacci numbers starting
  * with 1 and 2
  *
  * Return: 0
@@ -32,7 +32,8 @@ int main(void)
 		half2 = fib1_half2 + fib2_half2;
 		if (fib1_half2 + fib2_half2 > 9999999999)
 		{
-			half1 += 1;																half2 %= 1000000000;
+			half1 += 1;
+			half2 %= 1000000000;
 		}
 
 		printf("%lu%lu", half1, half2);
