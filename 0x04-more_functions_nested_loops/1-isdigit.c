@@ -2,8 +2,9 @@
 
 /**
  * main - check it's a number within 1-9
+ * @c: is the number to check
  *
- * Return: 1 for number, 0 otherwise.
+ * Return: 1 for number, 0 otherwise
  */
 int _isdigit(int c)
 {
