@@ -13,10 +13,11 @@ int n;
 
 for (n = 48; n < 58; n++)
 {
-if ((n != 50) || (n != 52))
+if ((n == 50) || (n == 52))
 {
-_putchar(n);
+continue;
 }
+_putchar(n);
 }
 _putchar(10);
 }
