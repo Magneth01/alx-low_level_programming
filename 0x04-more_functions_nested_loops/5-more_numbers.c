@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * more_numbers - print numbers
+ * more_numbers - print numbers to 14
  *
  * Return: returns nothing
  */
@@ -23,4 +23,4 @@ void more_numbers(void)
 		}
 		putchar(10);
 	}
-}			
+}
