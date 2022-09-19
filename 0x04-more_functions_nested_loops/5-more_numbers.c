@@ -1,9 +1,9 @@
 #include "main.h"
 
-/** more_numbers - Prints the numbers 0-14 ten times.
- * @num: is the value of number
- * @count: is the number of times to count
- */
+/** more_numbers - Prints the numbers 0-14 ten times
+* @num: is the value of number
+* @count: is the number of times to count
+*/
 
 void more_numbers(void)
 {
