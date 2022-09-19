@@ -6,7 +6,8 @@
  *
  * Return: returns nothing
  */
-voind more_numbers(void)
+
+void more_numbers(void)
 {
 	int n1, n2;
 
