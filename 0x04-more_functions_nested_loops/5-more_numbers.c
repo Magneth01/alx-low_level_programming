@@ -1,25 +1,25 @@
+#include <stdio.h>
 #include "main.h"
 
-/** more_numbers - Prints the numbers 0-14 ten times
-* @num: is the value of number
-* @count: is the number of times to count
-*/
-
-void more_numbers(void)
+/**
+ * more_numbers - print numbers
+ *
+ * Return: returns nothing
+ */
+voind more_numbers(void)
 {
-int num, count;
+	int n1, n2;
 
-for (count = 0; count <= 9; count++)
-{
-
-for (num = 0; num <= 14; num++)
-{
-
-if (num > 9)
-
-_putchar((num / 10) + '0');
-_putchar((num % 10) + '0');
-}
-_putchar('\n');
-}
-}
+	for (n1 = 0; n1 < 10; n++)
+	{
+		for (n2 = 0; n2 <= 14; n2++)
+		{
+			if (n2 > 9)
+			{
+				putchar((n2 / 10) + '0');
+			}
+			putchar((n2 % 10) + '0');
+		}
+		putchar(10);
+	}
+}			
